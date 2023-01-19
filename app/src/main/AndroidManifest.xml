@@ -43,7 +43,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+       <activity android:name=".accesopreferencias.OpcionesActivity" android:label="tema7_ejercicios">
+
+       </activity>
+
     </application>
 
 </manifest>

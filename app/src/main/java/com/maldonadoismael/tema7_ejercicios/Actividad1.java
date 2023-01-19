@@ -15,6 +15,11 @@ import org.w3c.dom.Text;
 public class Actividad1 extends AppCompatActivity {
 
     @Override
+    public void onBackPressed(){
+    Actividad1.this.finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actividad1);
@@ -48,5 +53,7 @@ public class Actividad1 extends AppCompatActivity {
                 tv2.setText(pref.getString("valor2","Funcionando bien"));
             }
         });
+
+
     }
 }
