@@ -39,6 +39,54 @@ public class Menu extends AppCompatActivity {
                 startActivity(intentActividad2);
             }
         });
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentActividad3 = new Intent(Menu.this,Actividad3.class);
+                startActivity(intentActividad3);
+            }
+        });
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentActividad4 = new Intent(Menu.this,Actividad4.class);
+                startActivity(intentActividad4);
+            }
+        });
+
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentActividad5 = new Intent(Menu.this,Actividad5.class);
+                startActivity(intentActividad5);
+            }
+        });
+
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentActividad6 = new Intent(Menu.this,Actividad6.class);
+                startActivity(intentActividad6);
+            }
+        });
+
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentActividad7 = new Intent(Menu.this,Actividad7.class);
+                startActivity(intentActividad7);
+            }
+        });
+
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentActividad8 = new Intent(Menu.this,Actividad8.class);
+                startActivity(intentActividad8);
+            }
+        });
         //endregion
 
     }
