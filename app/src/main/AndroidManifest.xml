@@ -12,6 +12,27 @@
         android:theme="@style/Theme.Tema7_Ejercicios"
         tools:targetApi="31">
         <activity
+            android:name=".Actividad8"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad7"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad6"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad5"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad4"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad3"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad2"
+            android:exported="false" />
+        <activity
             android:name=".Actividad1"
             android:exported="false" />
         <activity

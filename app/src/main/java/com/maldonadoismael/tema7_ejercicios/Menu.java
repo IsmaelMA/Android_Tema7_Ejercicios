@@ -31,6 +31,14 @@ public class Menu extends AppCompatActivity {
                 startActivity(intentActividad1);
             }
         });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentActividad2 = new Intent(Menu.this,Actividad2.class);
+                startActivity(intentActividad2);
+            }
+        });
         //endregion
 
     }
